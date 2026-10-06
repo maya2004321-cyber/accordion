@@ -79,5 +79,5 @@ body {
 }
 
 .accordion-content.open {
-  max-height: 200px; /* يمكن زيادتها حسب المحتوى */
+  max-height: 200px; 
 }
