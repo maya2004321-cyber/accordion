@@ -6,7 +6,6 @@ headers.forEach(header => {
     const content = item.querySelector('.accordion-content');
     const isOpen = content.classList.contains('open');
 
-    // إغلاق كل الأقسام المفتوحة
     document.querySelectorAll('.accordion-content').forEach(c => {
       c.classList.remove('open');
     });
@@ -14,7 +13,7 @@ headers.forEach(header => {
       h.classList.remove('active');
     });
 
-    // فتح القسم الحالي إذا كان مغلقًا
+   
     if (!isOpen) {
       content.classList.add('open');
       header.classList.add('active');
